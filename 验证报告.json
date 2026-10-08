@@ -1,0 +1,51 @@
+{
+  "product": "TG Harbor 1.0.0",
+  "unit_tests": {
+    "passed": 14,
+    "failed": 0
+  },
+  "browser_checks": {
+    "batch_selected_files": 4,
+    "keyword_filtered_files": 1,
+    "video_seconds": 6,
+    "video_ready_state": 4,
+    "video_error": null,
+    "console_errors": 0,
+    "viewport_overflow": false
+  },
+  "actual_files": [
+    {
+      "name": "夜行 · 城市光谱.png",
+      "bytes": 333827,
+      "sha256_matches_original": true
+    },
+    {
+      "name": "海岸 · 蓝色时刻.png",
+      "bytes": 345466,
+      "sha256_matches_original": true
+    },
+    {
+      "name": "旷野 · 日落之后.png",
+      "bytes": 402951,
+      "sha256_matches_original": true
+    },
+    {
+      "name": "流光 · 动态练习.mp4",
+      "bytes": 762333,
+      "sha256_matches_original": true
+    },
+    {
+      "name": "几何 · 色彩实验.png",
+      "bytes": 384933,
+      "sha256_matches_original": true
+    }
+  ],
+  "windows_build": {
+    "exe": "dist/TG-Harbor/TG-Harbor.exe",
+    "visible_window_title": "星港 · Telegram 资源助手",
+    "window_observed": true,
+    "native_screenshot": "not captured (computer-use app approval timed out)"
+  },
+  "telegram_online_account_test": false,
+  "telegram_login": "User must enter own API ID / API Hash and scan QR; no existing account sessions were read."
+}

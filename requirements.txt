@@ -1,0 +1,5 @@
+telethon==1.45.0
+pywebview==6.2.1
+qrcode[pil]==8.2
+PySocks==1.7.1
+pyinstaller==6.22.3

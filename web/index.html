@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>星港 · Telegram 资源助手</title><link rel="icon" href="/assets/icon.png"><link rel="stylesheet" href="/style.css"></head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#"><span class="brand-mark"><svg viewBox="0 0 40 40"><path d="M9 29V15l11-6 11 6v14M9 21l11 6 11-6M20 9v18"/></svg></span><span>星港<small>TG HARBOR</small></span></a>
+    <div class="workspace-label">个人资源工作空间 <span>⌄</span></div>
+    <nav aria-label="主导航">
+      <button data-view="media" class="nav-item active"><span data-icon="grid"></span>资源浏览<span class="nav-dot"></span></button>
+      <button data-view="tasks" class="nav-item"><span data-icon="download"></span>下载工作台<span id="queue-count" class="nav-count">0</span></button>
+      <button data-view="library" class="nav-item"><span data-icon="folder"></span>本地资源库</button>
+      <button data-view="automation" class="nav-item"><span data-icon="spark"></span>自动归档</button>
+      <div class="nav-divider"></div>
+      <button data-view="settings" class="nav-item"><span data-icon="settings"></span>设置与连接</button>
+    </nav>
+    <div class="sidebar-tip"><span data-icon="layers"></span><strong>让收藏，有处安放。</strong><p>从一条消息到整个频道，<br>把好内容留在自己的电脑。</p><button class="text-button" id="tip-link">创建链接下载 <span>↗</span></button></div>
+    <div class="sidebar-bottom"><span class="version-dot"></span>桌面版 1.0<span class="local-only">本地工作空间</span></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><div class="breadcrumb">工作空间 <span>/</span> <b id="breadcrumb-current">资源浏览</b></div><div class="top-actions"><span id="mode-badge" class="mode-badge">本地演示</span><button class="connection-button" id="connect-top"><i></i><span id="connection-text">连接 Telegram</span><span data-icon="chevron"></span></button><button class="avatar-button" id="account-button" aria-label="账号设置">H</button></div></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="statusbar"><span id="footer-status"><i></i>本地演示 · 示例素材可真实保存</span><button id="folder-footer"><span data-icon="folder"></span><span id="footer-path">下载目录</span><span>↗</span></button></footer>
+  </div>
+  <div class="modal-root" id="modal-root" hidden><div class="modal-backdrop"></div><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-heading"><div><span class="eyebrow" id="modal-eyebrow">NEW TASK</span><h2 id="modal-title"></h2></div><button class="icon-button" id="modal-close" aria-label="关闭">×</button></div><div id="modal-content"></div></section></div>
+  <div class="toast-stack" id="toast-stack" aria-live="polite"></div>
+  <script src="/app.js"></script>
+</body></html>
